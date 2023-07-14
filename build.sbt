@@ -17,7 +17,7 @@ def sysPropOrDefault(propName: String, default: String): String = Option(System.
 
 val akkaVersion = "2.6.20"
 val aspectjweaverVersion = "1.9.19"
-val micrometerVersion = "1.11.0"
+val micrometerVersion = "1.11.2"
 
 update / checksums := Nil
 
@@ -30,7 +30,7 @@ libraryDependencies ++= Seq(
   "org.aspectj" % "aspectjweaver" % aspectjweaverVersion,
   "com.typesafe.akka" %% "akka-cluster" % akkaVersion % Test,
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion % Test,
-  "org.scalatest" %% "scalatest" % "3.2.15" % Test,
+  "org.scalatest" %% "scalatest" % "3.2.16" % Test,
   "ch.qos.logback" % "logback-classic" % "1.3.5" % Test
 )
 
