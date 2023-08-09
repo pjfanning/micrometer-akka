@@ -7,6 +7,8 @@
 
 > :warning: This project is being ramped down due to Akka's move away from [Open Source](https://www.lightbend.com/blog/why-we-are-changing-the-license-for-akka). It is not expected that the previous iterations of this library (listed below) will continue to be maintained either.
 
+Development has switched to [micrometer-pekko](https://github.com/pjfanning/micrometer-pekko) instead.
+
 This project is a fork of an early version of [Kamon-Akka](https://kamon.io/docs/latest/instrumentation/akka/). The Kamon team have done a great job and if you are just experimenting with metrics collection, then their tools and documentation are a great starting point. 
 This fork produces metrics in [Micrometer](http://micrometer.io/) format.
 
